@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+  text-align: center;
+}
+
+header {
+  background-color: #4b0082;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #800080;
+  padding: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+}
+
+.about, .portfolio, .contact {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #4b0082;
+}
+
+h3 {
+  color: #800080;
+}
+
+.about p {
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.competencies {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.competencies li {
+  background-color: #f4f4f4;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.portfolio-item {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+}
+
+.portfolio-item img {
+  width: 100%;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.contact-icons img {
+  width: 40px;
+  height: 40px;
+}
+
+@media (min-width: 1024px) {
+  .about p {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .portfolio-item {
+    max-width: 1000px;
+  }
+}
